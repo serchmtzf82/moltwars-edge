@@ -13,4 +13,5 @@ new_classes = ["MoltHub"]
 [vars]
 ORIGIN_WS = "wss://server.moltwars.xyz/ws"
 ORIGIN_HTTP = "https://server.moltwars.xyz"
-MOLT_EDGE_SECRET = "REPLACE_ME"
+
+routes = ["server.moltwars.xyz/*"]
