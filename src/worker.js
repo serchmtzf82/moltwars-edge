@@ -2,7 +2,7 @@ export { MoltHub };
 
 export default {
   async fetch(request, env) {
-    const id = env.MOLT_DO.idFromName("main");
+    const id = env.MOLT_DO.idFromName("main2");
     const stub = env.MOLT_DO.get(id);
     return stub.fetch(request);
   },
